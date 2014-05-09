@@ -140,6 +140,7 @@ a:visited { color: #477b96; }
 .meta {
   color: #aaa;
   font-weight: 300;
+  margin-bottom: 0.5em;
 }
 
 .footer {
