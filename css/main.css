@@ -81,106 +81,106 @@ a:visited {
   /* standard */
   /* terminal */
 }
-.site .header #profile-pic {
+.header #profile-pic {
   border-radius: 31.25em;
   float: left;
   margin: -0.85em 0 0 0;
   overflow: auto;
   width: 17%;
 }
-.site .header .header-bio {
+.header .header-bio {
   font-size: 1.5em;
   line-height: 1.5em;
   border-bottom: 1px solid #ccc;
   padding: 1.875em 0 1.875em 0;
   overflow: auto;
 }
-.site .header .header-bio .title {
+.header .header-bio .title {
   float: right;
   margin-top: .5em;
   margin-bottom: 0;
   width: 80%;
   font-weight: normal;
 }
-.site .header .header-bio .title a {
+.header .header-bio .title a {
   color: #b00;
 }
-.site .header .header-bio .title a:hover {
+.header .header-bio .title a:hover {
   text-decoration: underline;
 }
-.site .header .header-bio .title a.extra {
+.header .header-bio .title a.extra {
   color: #aaa;
 }
-.site .header .header-bio .title h2 {
+.header .header-bio .title h2 {
   font-size: 0.8em;
   line-height: 1.2em;
   font-weight: 300;
 }
-.site .header .header-bio .title a {
+.header .header-bio .title a {
   text-decoration: none;
 }
-.site .home {
+.home {
   padding: 2em 0;
 }
-.site .home .posts {
+.home .posts {
   list-style-type: none;
 }
-.site .home .posts li {
+.home .posts li {
   line-height: 1.5em;
 }
-.site .home .posts span {
+.home .posts span {
   color: #aaa;
   font-weight: 300;
 }
-.site .pagetitle {
+.pagetitle {
   font-size: 1.15em;
   font-size: 1.25em;
   padding-top: 2em;
 }
-.site .footer {
+.footer {
   font-size: 1em;
   border-top: 1px solid #ccc;
   padding: 2em 0;
   overflow: hidden;
 }
-.site .footer .contact {
+.footer .contact {
   float: left;
   margin-right: 3em;
 }
-.site .footer .contact a {
+.footer .contact a {
   color: #477b96;
 }
-.site .footer .rss {
+.footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
 }
-.site .footer .rss img {
+.footer .rss img {
   border: 0;
 }
-.site .post {
+.post {
   padding: 2em 0;
   font-size: 1.15em;
 }
-.site .post .post-header h1, .site .post .post-content h1 {
+.post .post-header h1, .post .post-content h1 {
   font-size: 1.2em;
 }
-.site .post .post-header .meta, .site .post .post-content .meta {
+.post .post-header .meta, .post .post-content .meta {
   color: #aaa;
   font-weight: 300;
   margin-top: 0.2em;
 }
-.site .post .post-content {
+.post .post-content {
   margin-top: 0.5em;
 }
-.site .post .post-content .meta {
+.post .post-content .meta {
   margin-top: 0;
 }
-.site .post .post-content .separator {
+.post .post-content .separator {
   border-bottom: 2px solid #eee;
   margin-bottom: 1.15em;
 }
-.site .post pre {
+.post pre {
   border: 1px solid #ddd;
   border-radius: 3px;
   background-color: #f8f8f8;
@@ -188,38 +188,38 @@ a:visited {
   padding: 0 .4em;
   padding: 0.5em;
 }
-.site .post ul, .site .post ol {
+.post ul, .post ol {
   margin-left: 1.35em;
 }
-.site .post a {
+.post a {
   color: #477b96;
 }
-.site .post a:hover {
+.post a:hover {
   color: #477b96;
   text-decoration: none;
 }
-.site .post a:visited {
+.post a:visited {
   color: #477b96;
 }
-.site .post code {
+.post code {
   color: #c82829;
   border: 1px solid #ddd;
   background-color: #f8f8f8;
   padding: 0.1em .2em;
 }
-.site .post pre code {
+.post pre code {
   color: #333;
   border: none;
 }
-.site .post pre.terminal {
+.post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
-.site .post pre.terminal code {
+.post pre.terminal code {
   background-color: #333;
 }
-.site pre {
+pre {
   white-space: pre-wrap;        /* css-3 */
   white-space: -moz-pre-wrap;   /* Mozilla, since 1999 */
   white-space: -pre-wrap;       /* Opera 4-6 */
@@ -232,17 +232,17 @@ a:visited {
   .site {
     margin-top: 0;
   }
-  .site .header #profile-pic {
+  .header #profile-pic {
     float: none;
     display: block;
     margin: 1.5em auto 1em;
     width: 50%;
   }
-  .site .header .header-bio {
+  .header .header-bio {
     padding-top: 0;
     padding-bottom: 1em;
   }
-  .site .header .header-bio .title {
+  .header .header-bio .title {
     float: none;
     width: 100%;
     margin-top: 0;

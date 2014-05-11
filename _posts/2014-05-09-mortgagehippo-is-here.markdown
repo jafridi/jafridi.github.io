@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MortgageHippo is here!"
+description: New name, new site, even better home financing experience. We're happy to announce that Hippoteq is now MortgageHippo.
 date:   2014-05-09 13:38:37
 categories: posts update
 ---
