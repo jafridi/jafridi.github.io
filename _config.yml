@@ -1,9 +1,9 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Jamal Afridi - Digital Product Developer
+email: jamal.b.afridi@gmail.com
+description: "Jamal Afridi is a digital product developer at MortgageHippo.com focused on product design and Ruby on Rails development. Jamal is based in Chicago, IL."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://jamali.to"
 
 # Build settings
 markdown: kramdown
