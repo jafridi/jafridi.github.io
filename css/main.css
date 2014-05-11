@@ -1,0 +1,265 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background-color: #FDFFFF;
+  color: #333;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/images/fonts/ProximaNova-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: bold;
+  src: url("/assets/images/fonts/ProximaNova-Bold.otf") format("opentype");
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+a {
+  color: #477b96;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #477b96;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+.site {
+  width: 80%;
+  max-width: 50em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+  /*****************************************************************************/
+  /*
+  /* Posts
+  /*
+  /*****************************************************************************/
+  /* standard */
+  /* terminal */
+}
+.site .header #profile-pic {
+  border-radius: 31.25em;
+  float: left;
+  margin: -0.85em 0 0 0;
+  overflow: auto;
+  width: 17%;
+}
+.site .header .header-bio {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  border-bottom: 1px solid #ccc;
+  padding: 1.875em 0 1.875em 0;
+  overflow: auto;
+}
+.site .header .header-bio .title {
+  float: right;
+  margin-top: .5em;
+  margin-bottom: 0;
+  width: 80%;
+  font-weight: normal;
+}
+.site .header .header-bio .title a {
+  color: #b00;
+}
+.site .header .header-bio .title a:hover {
+  text-decoration: underline;
+}
+.site .header .header-bio .title a.extra {
+  color: #aaa;
+}
+.site .header .header-bio .title h2 {
+  font-size: 0.8em;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+.site .header .header-bio .title a {
+  text-decoration: none;
+}
+.site .home {
+  padding: 2em 0;
+}
+.site .home .posts {
+  list-style-type: none;
+}
+.site .home .posts li {
+  line-height: 1.5em;
+}
+.site .home .posts span {
+  color: #aaa;
+  font-weight: 300;
+}
+.site .pagetitle {
+  font-size: 1.15em;
+  font-size: 1.25em;
+  padding-top: 2em;
+}
+.site .footer {
+  font-size: 1em;
+  border-top: 1px solid #ccc;
+  padding: 2em 0;
+  overflow: hidden;
+}
+.site .footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+.site .footer .contact a {
+  color: #477b96;
+}
+.site .footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+.site .footer .rss img {
+  border: 0;
+}
+.site .post {
+  padding: 2em 0;
+  font-size: 1.15em;
+}
+.site .post .post-header h1, .site .post .post-content h1 {
+  font-size: 1.2em;
+}
+.site .post .post-header .meta, .site .post .post-content .meta {
+  color: #aaa;
+  font-weight: 300;
+  margin-top: 0.2em;
+}
+.site .post .post-content {
+  margin-top: 0.5em;
+}
+.site .post .post-content .meta {
+  margin-top: 0;
+}
+.site .post .post-content .separator {
+  border-bottom: 2px solid #eee;
+  margin-bottom: 1.15em;
+}
+.site .post pre {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  margin: 1em auto;
+  padding: 0 .4em;
+  padding: 0.5em;
+}
+.site .post ul, .site .post ol {
+  margin-left: 1.35em;
+}
+.site .post a {
+  color: #477b96;
+}
+.site .post a:hover {
+  color: #477b96;
+  text-decoration: none;
+}
+.site .post a:visited {
+  color: #477b96;
+}
+.site .post code {
+  color: #c82829;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  padding: 0.1em .2em;
+}
+.site .post pre code {
+  color: #333;
+  border: none;
+}
+.site .post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+.site .post pre.terminal code {
+  background-color: #333;
+}
+.site pre {
+  white-space: pre-wrap;        /* css-3 */
+  white-space: -moz-pre-wrap;   /* Mozilla, since 1999 */
+  white-space: -pre-wrap;       /* Opera 4-6 */
+  white-space: -o-pre-wrap;     /* Opera 7 */
+  word-wrap: break-word;        /* Internet Explorer 5.5+ */
+}
+
+/* Responsive */
+@media only screen and (max-width: 42em) {
+  .site {
+    margin-top: 0;
+  }
+  .site .header #profile-pic {
+    float: none;
+    display: block;
+    margin: 1.5em auto 1em;
+    width: 50%;
+  }
+  .site .header .header-bio {
+    padding-top: 0;
+    padding-bottom: 1em;
+  }
+  .site .header .header-bio .title {
+    float: none;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .home {
+    font-size: 1em;
+  }
+
+  .header a.extra {
+    color: #aaa;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    font-weight: normal;
+  }
+
+  .post {
+    font-size: 1.15em;
+  }
+}
