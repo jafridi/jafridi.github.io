@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jamal Afridi - Digital Product Developer</title>
+    <description>Jamal Afridi is a digital product developer at MortgageHippo.com focused on product design and Ruby on Rails development. Jamal is based in Chicago, IL.</description>
+    <link>http://jamali.to/</link>
+    <atom:link href="http://jamali.to/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>MortgageHippo is here!</title>
+        <description>&lt;p&gt;New name, new site, even better home financing experience. We’re happy to announce that Hippoteq is now &lt;a href=&quot;https://www.mortgagehippo.com&quot;&gt;MortgageHippo&lt;/a&gt;!&lt;br /&gt;
+&lt;br /&gt;
+What is MortgageHippo? Think of MortgageHippo as a homebuyer’s personal guide. We walk you through every step of the mortgage transaction and empower you with the necessary tools to make smarter decisions.&lt;br /&gt;
+&lt;br /&gt;
+Proud of the team for their work in getting everything prepped for the switch to &lt;a href=&quot;https://www.mortgagehippo.com&quot;&gt;MortgageHippo.com&lt;/a&gt;. Let us know what you think!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 09 May 2014 08:38:37 -0500</pubDate>
+        <link>http://jamali.to/posts/update/2014/05/09/mortgagehippo-is-here/</link>
+        <guid isPermaLink="true">http://jamali.to/posts/update/2014/05/09/mortgagehippo-is-here/</guid>
+      </item>
+    
+  </channel>
+</rss>
