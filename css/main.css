@@ -26,7 +26,7 @@ body {
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.35em;
   width: 100%;
 }
 
@@ -72,15 +72,22 @@ a:visited {
   width: 80%;
   max-width: 50em;
   margin: 3em auto 2em;
-  line-height: 1.5em;
-  /*****************************************************************************/
-  /*
-  /* Posts
-  /*
-  /*****************************************************************************/
-  /* standard */
-  /* terminal */
+  line-height: 1.45em;
+  display: block;
+  -webkit-animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  animation: fadein 0.5s;
 }
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+/* standard */
+/* terminal */
+
 .header #profile-pic {
   border-radius: 31.25em;
   float: left;
@@ -90,7 +97,7 @@ a:visited {
 }
 .header .header-bio {
   font-size: 1.5em;
-  line-height: 1.5em;
+  line-height: 1.45em;
   border-bottom: 1px solid #ccc;
   padding: 1.875em 0 1.875em 0;
   overflow: auto;
@@ -263,3 +270,32 @@ pre {
     font-size: 1.15em;
   }
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
