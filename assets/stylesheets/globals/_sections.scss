@@ -15,8 +15,13 @@ hr {
   border-top: 1px solid rgba(255,255,255,0.3);
 }
 
-.portfolio {
-	hr {
-    border-top: 1px solid #2e3b4e;
+.post-content {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 42em) {
+  .post-content {
+    width: 90%;
+    margin: 0 auto;
   }
 }
