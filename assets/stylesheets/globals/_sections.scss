@@ -1,0 +1,22 @@
+.site-container {
+  background: #A5B2B6;
+  padding: 40px;
+}
+
+.info-container {
+  background: #A5B2B6;
+  padding: 10px;
+}
+
+hr {
+  margin: 1.5em auto;
+  width: 2em;
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.portfolio {
+	hr {
+    border-top: 1px solid #2e3b4e;
+  }
+}

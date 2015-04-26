@@ -1,0 +1,80 @@
+---
+---
+
+@charset "UTF-8";
+
+// Globals ———————————————————————————————— •
+// ——————————————————————————————————————————— •
+
+@import
+  'globals/sections',
+  'globals/type',
+  'globals/fonts';
+
+
+// Components ———————————————————————————————— •
+// ——————————————————————————————————————————— •
+
+@import
+  'components/site';
+
+
+// Pages ————————————————————————————————————— •
+// ——————————————————————————————————————————— •
+
+// @import
+
+body {
+  // background: #A5B2B6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+  margin: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+.site-container {
+  background: #A5B2B6;
+  padding: 40px;
+}
+
+.info-container {
+  background: #A5B2B6;
+  padding: 10px;
+}
+
+p {
+  line-height: 1.8;
+  margin: 0 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  transition: 0.15s ease all;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​{}

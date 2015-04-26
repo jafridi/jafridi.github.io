@@ -5,6 +5,9 @@ description: "Jamal Afridi is a digital product developer at MortgageHippo.com f
 baseurl: ""
 url: "http://jamali.to"
 
+sass:
+  sass_dir: assets/stylesheets
+
 # Build settings
 markdown: kramdown
 permalink: pretty
