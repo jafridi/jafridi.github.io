@@ -2,28 +2,29 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="site-container">
-      <div class="site">
-        <div class="header">
-          <a href="/" style="border-bottom: none;">
-            <img id="profile-pic" height="64px" width="64px" src="/assets/images/bullseye.png" title="Jamal Afridi">
-          </a>
-          <h1>
-            Jamal Afridi
-            <span>Product Developer</span>
-          </h1>
-          <hr>
-          <p class="title">Product developer living in Chicago. I love building great digital products, working with smart people, and making good coffee.</p>
-          <hr>
-          <p class="title">I am currently lead product developer at <a href="http://www.mortgagehippo.com">MortgageHippo</a>.</p>
-          <hr>
+    <div class={{page.class}}>
+      <div class="site-container">
+        <div class="site">
+          <div class="header">
+            <a href="/" style="border-bottom: none;">
+              <img id="profile-pic" height="64px" width="64px" src="/assets/images/bullseye.png" title="Jamal Afridi">
+            </a>
+            <h1>
+              Jamal Afridi
+              <span>Product Developer</span>
+            </h1>
+            <hr>
+            <p class="title">Product developer living in Chicago. I love building great digital products, working with smart people, and making good coffee.</p>
+            <hr>
+            <p class="title">I am currently lead product developer at <a href="http://www.mortgagehippo.com">MortgageHippo</a>.</p>
+            <hr>
+          </div>
+
+    <!--       {{ content }} -->
+
+          {% include footer.html %}
         </div>
-
-  <!--       {{ content }} -->
-
-        {% include footer.html %}
       </div>
     </div>
-
   </body>
 </html>

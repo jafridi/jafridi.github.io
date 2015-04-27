@@ -1,10 +1,14 @@
+.section {
+  margin: 4em 0;
+}
+
 .site-container {
   background: #A5B2B6;
   padding: 40px;
 }
 
 .info-container {
-  background: #A5B2B6;
+  background: #5e5e5e;
   padding: 10px;
 }
 
@@ -15,8 +19,31 @@ hr {
   border-top: 1px solid rgba(255,255,255,0.3);
 }
 
-.post-content {
-  font-size: 16px;
+.post {
+  .post-content {
+    font-size: 16px;
+    color: #5e5e5e;
+  }
+  .footer {
+    color: #5e5e5e;
+  }
+  a {
+      color: #5e5e5e;
+      border-bottom: 1px solid #5e5e5e;
+    }
+}
+
+.portfolio {
+  hr {
+    border-top: 1px solid #ababab;
+  }
+}
+
+.iwt {
+  hr {
+    margin-left: 0;
+    border-top: 2px solid #ababab;
+  }
 }
 
 @media only screen and (max-width: 42em) {
