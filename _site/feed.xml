@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jamal Afridi - Product Manager</title>
-    <description>Jamal Afridi is a product manager at UrbanBound focused on strategy, design, and Ruby on Rails development. Jamal is based in Chicago, IL.</description>
-    <link>http://jamali.to/</link>
-    <atom:link href="http://jamali.to/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Jamal Afridi is a product manager at UrbanBound focused on product strategy and design. Jamal is based in Chicago, IL.</description>
+    <link>http://www.jamalafridi.com/</link>
+    <atom:link href="http://www.jamalafridi.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Work-Life feature in the Chicago Tribune</title>
@@ -12,8 +12,8 @@
 
 </description>
         <pubDate>Sat, 26 Jul 2014 14:00:37 -0500</pubDate>
-        <link>http://jamali.to/posts/update/2014/07/26/balancing-work-and-ramadan/</link>
-        <guid isPermaLink="true">http://jamali.to/posts/update/2014/07/26/balancing-work-and-ramadan/</guid>
+        <link>http://www.jamalafridi.com/posts/update/2014/07/26/balancing-work-and-ramadan/</link>
+        <guid isPermaLink="true">http://www.jamalafridi.com/posts/update/2014/07/26/balancing-work-and-ramadan/</guid>
       </item>
     
       <item>
@@ -26,8 +26,8 @@ Proud of the team for their work in getting everything prepped for the switch to
 
 </description>
         <pubDate>Fri, 09 May 2014 08:38:37 -0500</pubDate>
-        <link>http://jamali.to/posts/update/2014/05/09/mortgagehippo-is-here/</link>
-        <guid isPermaLink="true">http://jamali.to/posts/update/2014/05/09/mortgagehippo-is-here/</guid>
+        <link>http://www.jamalafridi.com/posts/update/2014/05/09/mortgagehippo-is-here/</link>
+        <guid isPermaLink="true">http://www.jamalafridi.com/posts/update/2014/05/09/mortgagehippo-is-here/</guid>
       </item>
     
   </channel>
